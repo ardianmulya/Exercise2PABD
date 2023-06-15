@@ -58,6 +58,12 @@
     <Compile Include="Data_Nilai.Designer.cs">
       <DependentUpon>Data_Nilai.cs</DependentUpon>
     </Compile>
+    <Compile Include="Detail_MHS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detail_MHS.Designer.cs">
+      <DependentUpon>Detail_MHS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Data_Nilai.resx">
       <DependentUpon>Data_Nilai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail_MHS.resx">
+      <DependentUpon>Detail_MHS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

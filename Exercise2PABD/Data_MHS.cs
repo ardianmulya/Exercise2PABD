@@ -23,5 +23,26 @@ namespace Exercise2PABD
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) // Pastikan baris yang diklik valid
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                string data = row.Cells[0].Value.ToString(); // Mengambil nilai dari kolom pertama (misalnya)
+
+                Detail_MHS detail = new Detail_MHS(data);
+                detail.Show();
+                this.Hide();
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu mainMenu = new Menu();
+            mainMenu.Show();
+            this.Hide();
+        }
     }
 }

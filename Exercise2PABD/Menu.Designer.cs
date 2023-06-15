@@ -75,7 +75,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
-            this.Text = "Teknologi Informasi";
+            this.Text = "Teknologi Informasi UMY";
             this.ResumeLayout(false);
             this.PerformLayout();
 

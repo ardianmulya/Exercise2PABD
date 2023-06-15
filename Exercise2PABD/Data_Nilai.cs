@@ -23,5 +23,12 @@ namespace Exercise2PABD
             this.nilaiTableAdapter.Fill(this.prodiTIDataSet11.Nilai);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu mainMenu = new Menu();
+            mainMenu.Show();
+            this.Hide();
+        }
     }
 }
