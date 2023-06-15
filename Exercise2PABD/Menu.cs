@@ -1,4 +1,4 @@
-﻿using Data_MHS1;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +20,7 @@ namespace Exercise2PABD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Data_MHS1 Data = new Data_MHS1
+
         }
 
         private void label1_Click(object sender, EventArgs e)

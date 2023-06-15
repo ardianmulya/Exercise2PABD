@@ -36,9 +36,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(185, 221);
+            this.button1.Image = global::Exercise2PABD.Properties.Resources.data_spreadsheet;
+            this.button1.Location = new System.Drawing.Point(49, 166);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(296, 223);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(504, 221);
+            this.button2.Image = global::Exercise2PABD.Properties.Resources.up_and_down;
+            this.button2.Location = new System.Drawing.Point(440, 166);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(313, 223);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
