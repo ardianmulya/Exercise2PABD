@@ -20,7 +20,9 @@ namespace Exercise2PABD
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Data_MHS data = new Data_MHS();
+            data.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
