@@ -29,5 +29,12 @@ namespace Exercise2PABD
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Data_Nilai nilai = new Data_Nilai();
+            nilai.Show();
+            this.Hide();
+        }
     }
 }
